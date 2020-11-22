@@ -18,9 +18,9 @@ public class CameraControl : MonoBehaviour
     private void MoveUp()
     {
 
-        transform.position = new Vector3(transform.position.x,
-									Mathf.Lerp(transform.position.y, Tower.highestColumn+2f, Time.deltaTime) ,
-									transform.position.z);
+        transform.position = new Vector3(transform.position.x,	
+					Mathf.Lerp(transform.position.y, Tower.highestColumn+2f, Time.deltaTime) ,
+					transform.position.z);
     }
 
     public void RotateCamera(float deg) 
